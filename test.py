@@ -15,8 +15,6 @@ def truthtabletest():
             print(f"{haveFriend}, {haveMoney}, {isBanned}, False [!3!]") # I do not have a friend or the money to go to the theater
         print("-=" * 25)
         print(" ")
-truthtabletest()
-
 
 
 
@@ -37,7 +35,7 @@ def yadayada():
 
 # integers and floats
 integer = 67 # whole numbers only
-float = float(67.02) # numbers with decimals allowed
+ee = float(67.02) # numbers with decimals allowed
 # floats can have decimals, integers cant
 
 
@@ -52,5 +50,12 @@ def c1():
         wrdcount = wrdcount + 1 
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
 
-
-# Challenge 2
+# Challenge 2 I think
+def c2():
+    number = input("Give me a WHOLE number.")
+    quotient = 
+    if quotient == float(quotient):
+        print(f"The quotient was a decimal, meaning your number is ODD! (result: {quotient})")
+    else:
+        print(f"The resulting number was a whole number, meaning it is EVEN! (result: {quotient})")
+c2()
