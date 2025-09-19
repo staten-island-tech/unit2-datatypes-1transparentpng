@@ -40,3 +40,34 @@ def c1():
         wrdcount = wrdcount + 1 
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
 
+# Challenge 3 cause challenge 2 is confusing :(
+bill = int(55)
+def c3():
+    tipTypes = ["Bad", "Fine", "Good", "Great"]
+    tipInput = input("Please, tip us based on how good our service was! Was it Bad, Fine, Good, or Great?")
+    tipPercent = 0
+    if tipInput in tipTypes:
+        if tipInput == "Bad":
+            print("We're sorry your service wasnt as good as you anticipated! We hope to improve our service based on your thoughts.")
+        elif tipInput == "Fine":
+            tipPercent = .15
+            print("Thank you for selecting Fine, and giving us a 15% Tip!")
+        elif tipInput == "Good":
+            tipPercent = .2
+            print("Thank you for selecting Good, and giving us a 20% Tip!")
+        elif tipInput == "Great":
+            tipPercent = .25
+            print("Thank you for selecting Great, and giving us a 25% Tip!")
+    else:
+        print("Invalid answer! Please select from the following: Bad, Fine, Good, Great")
+        c3()
+    total = (bill * tipPercent) + bill
+    print("-=" * 10)
+    print("RECEIPT")
+    print("-=" * 10)
+    print(f"Sub-total: ${bill}")
+    print(f"Tip: {tipPercent}%")
+    print(" ")
+    print(f"Total: ${total}")
+c3()
+    
