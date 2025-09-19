@@ -12,7 +12,7 @@ def truthtabletest():
         elif isBanned:
             print(f"{haveFriend}, {haveMoney}, {isBanned}, False [!2!]") # I am banned from the theater
         elif not haveFriend or haveMoney:
-            print(f"{haveFriend}, {haveMoney}, {isBanned}, False [!3!]") # I do not have a friend or the money to go to the theater
+            print(f"{haveFriend}, {haveMoney}, {isBanned}, False [!3!]") # I do not have a friend nor the money to go to the theater
         print("-=" * 25)
         print(" ")
 
@@ -21,17 +21,7 @@ def truthtabletest():
 
 # boolean value
 movie = True
-Homework = True
-
-def yadayada():
-    if Homework and movie == True:
-        print("I'd like to go to the movies, but I must do my homework!")
-    elif Homework == True:
-        print("Doing homework!")
-    elif movie == True:
-        print("Heading to the movies!")
-    else:
-        print("Got nothing to do..")
+Homework = False
 
 # integers and floats
 integer = 67 # whole numbers only
@@ -50,12 +40,3 @@ def c1():
         wrdcount = wrdcount + 1 
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
 
-# Challenge 2 I think
-def c2():
-    number = input("Give me a WHOLE number.")
-    quotient = 
-    if quotient == float(quotient):
-        print(f"The quotient was a decimal, meaning your number is ODD! (result: {quotient})")
-    else:
-        print(f"The resulting number was a whole number, meaning it is EVEN! (result: {quotient})")
-c2()
