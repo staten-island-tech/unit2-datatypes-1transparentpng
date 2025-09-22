@@ -40,7 +40,7 @@ def c1():
         wrdcount = wrdcount + 1 
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
 
-# Challenge 3 cause challenge 2 is confusing :(
+# Challenge 3
 bill = int(55)
 def c3():
     tipTypes = ["Bad", "Fine", "Good", "Great"]
@@ -69,5 +69,21 @@ def c3():
     print(f"Tip: {tipPercent}%")
     print(" ")
     print(f"Total: ${total}")
-c3()
+
+def c4():
+    num = input("Give me a WHOLE number, and i'll tell you its factors.")
+    divisor = int(2)
+    findFactor = num / divisor
+    divisor = divisor + int(1)
+    factorlist = 1
+    print(findFactor)
+    factorlist.append(findFactor)
+    if findFactor == float(findFactor):
+        if divisor == num:
+            print(factorlist)
+        elif findFactor == int(findFactor):
+            findFactor = num / divisor
+            divisor = divisor + 1
+            factorlist.append(findFactor)
+    
     
