@@ -39,7 +39,14 @@ def c1():
     for i in y: # For every word in the list, the variable wrdcount increases by 1 from 0.
         wrdcount = wrdcount + 1 
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
-
+# c2
+def c2(num):
+    result = num / 2
+    if result == 6:
+        print("EVEN")
+    else:
+        print("ODD")
+c2(12)
 # Challenge 3
 bill = int(55)
 def c3():
@@ -70,20 +77,5 @@ def c3():
     print(" ")
     print(f"Total: ${total}")
 
-def c4():
-    num = input("Give me a WHOLE number, and i'll tell you its factors.")
-    divisor = int(2)
-    findFactor = num / divisor
-    divisor = divisor + int(1)
-    factorlist = 1
-    print(findFactor)
-    factorlist.append(findFactor)
-    if findFactor == float(findFactor):
-        if divisor == num:
-            print(factorlist)
-        elif findFactor == int(findFactor):
-            findFactor = num / divisor
-            divisor = divisor + 1
-            factorlist.append(findFactor)
-    
-    
+
+
