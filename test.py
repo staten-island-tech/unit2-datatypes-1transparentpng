@@ -39,14 +39,19 @@ def c1():
     for i in y: # For every word in the list, the variable wrdcount increases by 1 from 0.
         wrdcount = wrdcount + 1 
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
+
+
 # c2
 def c2(num):
     result = num / 2
-    if result == 6:
+    
+    if result == :
         print("EVEN")
     else:
         print("ODD")
 c2(12)
+
+
 # Challenge 3
 bill = int(55)
 def c3():
