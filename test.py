@@ -41,15 +41,6 @@ def c1():
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
 
 
-# c2
-def c2(num):
-    result = num / 2
-    
-    if result == :
-        print("EVEN")
-    else:
-        print("ODD")
-c2(12)
 
 
 # Challenge 3
