@@ -72,6 +72,7 @@ def c3():
     print(f"Tip: {tipPercent}%")
     print(" ")
     print(f"Total: ${total}")
+c3()
 
 
 
