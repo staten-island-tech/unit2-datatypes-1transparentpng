@@ -1,3 +1,5 @@
+import math
+
 # test
 haveFriend = True
 haveMoney = True
@@ -72,7 +74,31 @@ def c3():
     print(f"Tip: {tipPercent}%")
     print(" ")
     print(f"Total: ${total}")
-c3()
+
+# challenge 4
+number = int(20)
+def c4():
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    print(factors)
+
+# challenge 5
+number1 = int(55)
+number2 = int(30)
+def c5SIMPLE():
+    print(math.gcd(number1, number2))
+
+def c5REALLYHARDFORSOMEREASON():
+    commonfactors = [] # creates a list which all the found common factors would be put in
+    for divisor in range(number1, 0, -1): # loop that counts down from number 1 all the way to 0. number1 is starting number, 0 is end number, -1 is decrement
+        if number1 % divisor == 0 and number2 % divisor == 0:
+            print(divisor)
+            commonfactors.append(divisor) # adds the divisor to the common factors lit if it has a remainder of 0
+    print(f"The GCF IS:")
+    print(max(commonfactors)) # takes the highest common factor found, AKA the GCF from the list
+c5REALLYHARDFORSOMEREASON()
 
 
 
