@@ -42,7 +42,13 @@ def c1():
         wrdcount = wrdcount + 1 
     print(f"There are {wrdcount} words in that!") # prints the total amount of words :D
 
-
+# Challenge 2
+def c2(num):
+    if num % 2 == 0:
+        print(f"{num} is EVEN!")
+    else:
+        print(f"{num} is ODD!")
+c2(53)
 
 
 # Challenge 3
@@ -79,7 +85,7 @@ def c3():
 number = int(20)
 def c4():
     factors = []
-    for i in range(1, number + 1):
+    for i in range(1, number + 1): # loop starts from 1 rather than 0, which would cause zerodivisionerror
         if number % i == 0:
             factors.append(i)
     print(factors)
@@ -88,7 +94,7 @@ def c4():
 number1 = int(55)
 number2 = int(30)
 def c5SIMPLE():
-    print(math.gcd(number1, number2))
+    print(math.gcd(number1, number2)) # uses the math import's gcd feature, which is really simple
 
 def c5REALLYHARDFORSOMEREASON():
     commonfactors = [] # creates a list which all the found common factors would be put in
@@ -98,7 +104,7 @@ def c5REALLYHARDFORSOMEREASON():
             commonfactors.append(divisor) # adds the divisor to the common factors lit if it has a remainder of 0
     print(f"The GCF IS:")
     print(max(commonfactors)) # takes the highest common factor found, AKA the GCF from the list
-c5REALLYHARDFORSOMEREASON()
+
 
 
 
