@@ -48,7 +48,6 @@ def c2(num):
         print(f"{num} is EVEN!")
     else:
         print(f"{num} is ODD!")
-c2(53)
 
 
 # Challenge 3
@@ -91,20 +90,22 @@ def c4():
     print(factors)
 
 # challenge 5
-number1 = int(55)
-number2 = int(30)
 def c5SIMPLE():
     print(math.gcd(number1, number2)) # uses the math import's gcd feature, which is really simple
 
-def c5REALLYHARDFORSOMEREASON():
-    commonfactors = [] # creates a list which all the found common factors would be put in
-    for divisor in range(number1, 0, -1): # loop that counts down from number 1 all the way to 0. number1 is starting number, 0 is end number, -1 is decrement
-        if number1 % divisor == 0 and number2 % divisor == 0:
-            print(divisor)
-            commonfactors.append(divisor) # adds the divisor to the common factors lit if it has a remainder of 0
-    print(f"The GCF IS:")
-    print(max(commonfactors)) # takes the highest common factor found, AKA the GCF from the list
+def c5REALLYHARDFORSOMEREASON(number1, number2):
+    for i in range(number1, 0, -1):
+        if number1 % i == 0 and number2 % i == 0:
+            print(f"The GCF is {i}")
+            return
+c5REALLYHARDFORSOMEREASON(55, 30)
 
 
 
 
+student = {
+    "name": "Bob",
+    "Classes": "CSci, Alg1, CHEM",
+    "Grades": (68, 71, 95)
+} # dictionary
+#print(student['name'], student["Classes"], student["Grades"]) # prints the student dictionary
