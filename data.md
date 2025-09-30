@@ -61,7 +61,7 @@ print(z)
 ```
 Here we can use the split function which allows for an parameter to be passed in. The parameter passed in will be used to split the string into a new list. By using an empty space we can break up our words into seperate elements. Since we know how to access elements in a list we can then store the first word as a seperate variable to be used later.
 
-# Challenge
+# Challenge 1
 1. Using the "input" method in Python, ask a user to input a sentence. Then develop a function that accepts a the user input and will tell you how many words are in that string. First write out your plan in Pseudo-code using comments. Then craft the function. 
 2. Mad Libs Project
 
@@ -94,16 +94,15 @@ else:
 ```
 What will happen when we run the above code? 
 
-## Challenge
+## Challenge 2
 Let's create a function that determines if a number is odd or even
-## Challenge
+## Challenge 3
 Let's create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending on if the service was "bad, okay, good , or great ". 
 
-## Challenge
-
+## Challenge 4
 Create a function that accepts an input and determines all factors of the number. 
 
-## Challenge 
 
+
+## Challenge 5
 Create a function that accepts 2 arguments. Find the greatest common factor between those numbers. 
-

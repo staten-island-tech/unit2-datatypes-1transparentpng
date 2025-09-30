@@ -108,4 +108,4 @@ student = {
     "Classes": "CSci, Alg1, CHEM",
     "Grades": (68, 71, 95)
 } # dictionary
-#print(student['name'], student["Classes"], student["Grades"]) # prints the student dictionary
+print(student['name'], student["Classes"], student["Grades"]) # prints the student dictionary
